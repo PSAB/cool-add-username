@@ -13,18 +13,28 @@ import FirebaseAuthUI
 
 
 class CreateUsernameViewController: UIViewController {
-//    @IBOutlet weak var usernameTextField: UITextView!
-    //Connect the UIElements-In this case the Username text field and the Next Button
+    
+        //IBOutlets
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var nextButton: UIButton!
     
     
-    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        print("hooray!")
-        
+     super.viewDidLoad()
     }
+    
+    
+        //IBActions
+    @IBAction func nextButtonTapped(_ sender: Any) {
+        //create new user in database
+    }
+        
+        
+    
+        
+       
+        
+    
     
     
     

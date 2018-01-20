@@ -42,6 +42,7 @@ class LoginViewController: UIViewController {
         authUI.delegate = self
         //access and present our authViewController
         let authViewController = authUI.authViewController()
+//        TEMPORARILY COMMENT OUT PRESENTING THE AUTHVIEWCONTROLLER
         present(authViewController, animated: true)
         
         
@@ -73,7 +74,7 @@ extension LoginViewController : FUIAuthDelegate {
         let userRef = Database.database().reference().child("users").child(user.uid)
         
         //read the data by handling the snapshot
-        userRef.observeSingleEvent(of: .value, with: { (snapshot) in
+        userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in
             // 4 retrieve user data from snapshot
             
             //retrieve the data from the DataSnapshot using the value property, check if it's expected type (in this case, dictionary)
@@ -84,7 +85,8 @@ extension LoginViewController : FUIAuthDelegate {
             }
             else {
                 print("New User!")
-                
+                //if there is a new user, use the segue to present the CreateUsernameViewController
+//                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
             
         })
