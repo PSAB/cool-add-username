@@ -16,6 +16,7 @@ class CreateUsernameViewController: UIViewController {
 //    @IBOutlet weak var usernameTextField: UITextView!
     //Connect the UIElements-In this case the Username text field and the Next Button
     @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var nextButton: UIButton!
     
     
     
