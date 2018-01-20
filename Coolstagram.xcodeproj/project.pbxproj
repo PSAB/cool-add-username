@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E206277E08E4C291CBD29D7 /* Pods_Coolstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E12EBEAB0363F3960E7EC2 /* Pods_Coolstagram.framework */; };
+		D7275EE51FCB979700B948BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7275EE41FCB979700B948BA /* Main.storyboard */; };
+		D7275EEB1FCB97B200B948BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7275EEA1FCB97B200B948BA /* LaunchScreen.storyboard */; };
+		D7275EED1FCB97B900B948BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7275EEC1FCB97B900B948BA /* ViewController.swift */; };
+		D7507BA21FC96A1900A6B800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7507BA11FC96A1900A6B800 /* AppDelegate.swift */; };
+		D7507BA91FC96A1900A6B800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7507BA81FC96A1900A6B800 /* Assets.xcassets */; };
+		D75C46A82001E8AA00B99C46 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C46A72001E8AA00B99C46 /* User.swift */; };
+		D75C46AB200C80E500B99C46 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C46AA200C80E500B99C46 /* CreateUsernameViewController.swift */; };
+		D7E5A8431FCBA13F00F2B347 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7E5A8421FCBA13F00F2B347 /* GoogleService-Info.plist */; };
+		D7E5A8481FCCE11E00F2B347 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E5A8471FCCE11E00F2B347 /* Login.storyboard */; };
+		D7E5A84C1FD6067300F2B347 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E5A84B1FD6067300F2B347 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13E12EBEAB0363F3960E7EC2 /* Pods_Coolstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coolstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7948CC6829D14E37551FC937 /* Pods-Coolstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coolstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coolstagram/Pods-Coolstagram.release.xcconfig"; sourceTree = "<group>"; };
+		924E5BC642F5396E69CE05FD /* Pods-Coolstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coolstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coolstagram/Pods-Coolstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		D7275EE41FCB979700B948BA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		D7275EE81FCB97AB00B948BA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
+		D7275EEA1FCB97B200B948BA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7275EEC1FCB97B900B948BA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
+		D7507B9E1FC96A1900A6B800 /* Coolstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coolstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7507BA11FC96A1900A6B800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7507BA81FC96A1900A6B800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D75C46A72001E8AA00B99C46 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D75C46AA200C80E500B99C46 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		D7E5A8421FCBA13F00F2B347 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7E5A8471FCCE11E00F2B347 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
+		D7E5A84B1FD6067300F2B347 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7507B9B1FC96A1900A6B800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E206277E08E4C291CBD29D7 /* Pods_Coolstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1D7A900137ADB5057034C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				924E5BC642F5396E69CE05FD /* Pods-Coolstagram.debug.xcconfig */,
+				7948CC6829D14E37551FC937 /* Pods-Coolstagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7507B951FC96A1900A6B800 = {
+			isa = PBXGroup;
+			children = (
+				D7507BA01FC96A1900A6B800 /* Coolstagram */,
+				D7507B9F1FC96A1900A6B800 /* Products */,
+				CB1D7A900137ADB5057034C3 /* Pods */,
+				E658ECAF533DF3F595EF4CF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7507B9F1FC96A1900A6B800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7507B9E1FC96A1900A6B800 /* Coolstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7507BA01FC96A1900A6B800 /* Coolstagram */ = {
+			isa = PBXGroup;
+			children = (
+				D75C46A92001E8C600B99C46 /* Models */,
+				D7E5A8451FCBA72F00F2B347 /* Storyboards */,
+				D7E5A8441FCBA70F00F2B347 /* View Controllers */,
+				D7E5A8461FCBA75E00F2B347 /* Supporting files */,
+				D7507BA11FC96A1900A6B800 /* AppDelegate.swift */,
+				D7507BA81FC96A1900A6B800 /* Assets.xcassets */,
+			);
+			path = Coolstagram;
+			sourceTree = "<group>";
+		};
+		D75C46A92001E8C600B99C46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D75C46A72001E8AA00B99C46 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D7E5A8441FCBA70F00F2B347 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7275EEC1FCB97B900B948BA /* ViewController.swift */,
+				D7E5A84B1FD6067300F2B347 /* LoginViewController.swift */,
+				D75C46AA200C80E500B99C46 /* CreateUsernameViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D7E5A8451FCBA72F00F2B347 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D7E5A8471FCCE11E00F2B347 /* Login.storyboard */,
+				D7275EE41FCB979700B948BA /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D7E5A8461FCBA75E00F2B347 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D7275EEA1FCB97B200B948BA /* LaunchScreen.storyboard */,
+				D7275EE81FCB97AB00B948BA /* Info.plist */,
+				D7E5A8421FCBA13F00F2B347 /* GoogleService-Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E658ECAF533DF3F595EF4CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13E12EBEAB0363F3960E7EC2 /* Pods_Coolstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7507B9D1FC96A1900A6B800 /* Coolstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7507BB01FC96A1900A6B800 /* Build configuration list for PBXNativeTarget "Coolstagram" */;
+			buildPhases = (
+				150696B7C476BCA999740D75 /* [CP] Check Pods Manifest.lock */,
+				D7507B9A1FC96A1900A6B800 /* Sources */,
+				D7507B9B1FC96A1900A6B800 /* Frameworks */,
+				D7507B9C1FC96A1900A6B800 /* Resources */,
+				FB0D725E456AD9A8374B7232 /* [CP] Embed Pods Frameworks */,
+				D7E7C0F68D29D9BB52920D5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coolstagram;
+			productName = Coolstagram;
+			productReference = D7507B9E1FC96A1900A6B800 /* Coolstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7507B961FC96A1900A6B800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pavan Sabnis";
+				TargetAttributes = {
+					D7507B9D1FC96A1900A6B800 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7507B991FC96A1900A6B800 /* Build configuration list for PBXProject "Coolstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7507B951FC96A1900A6B800;
+			productRefGroup = D7507B9F1FC96A1900A6B800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7507B9D1FC96A1900A6B800 /* Coolstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7507B9C1FC96A1900A6B800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7507BA91FC96A1900A6B800 /* Assets.xcassets in Resources */,
+				D7E5A8431FCBA13F00F2B347 /* GoogleService-Info.plist in Resources */,
+				D7275EEB1FCB97B200B948BA /* LaunchScreen.storyboard in Resources */,
+				D7E5A8481FCCE11E00F2B347 /* Login.storyboard in Resources */,
+				D7275EE51FCB979700B948BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		150696B7C476BCA999740D75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coolstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E7C0F68D29D9BB52920D5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Coolstagram/Pods-Coolstagram-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coolstagram/Pods-Coolstagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0D725E456AD9A8374B7232 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Coolstagram/Pods-Coolstagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coolstagram/Pods-Coolstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7507B9A1FC96A1900A6B800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75C46A82001E8AA00B99C46 /* User.swift in Sources */,
+				D7E5A84C1FD6067300F2B347 /* LoginViewController.swift in Sources */,
+				D7275EED1FCB97B900B948BA /* ViewController.swift in Sources */,
+				D75C46AB200C80E500B99C46 /* CreateUsernameViewController.swift in Sources */,
+				D7507BA21FC96A1900A6B800 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7507BAE1FC96A1900A6B800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7507BAF1FC96A1900A6B800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7507BB11FC96A1900A6B800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924E5BC642F5396E69CE05FD /* Pods-Coolstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Coolstagram/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.Coolstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7507BB21FC96A1900A6B800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7948CC6829D14E37551FC937 /* Pods-Coolstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Coolstagram/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.Coolstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7507B991FC96A1900A6B800 /* Build configuration list for PBXProject "Coolstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7507BAE1FC96A1900A6B800 /* Debug */,
+				D7507BAF1FC96A1900A6B800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7507BB01FC96A1900A6B800 /* Build configuration list for PBXNativeTarget "Coolstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7507BB11FC96A1900A6B800 /* Debug */,
+				D7507BB21FC96A1900A6B800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7507B961FC96A1900A6B800 /* Project object */;
+}
