@@ -14,6 +14,7 @@ import FirebaseDatabase
 
 // Can be used to access the instantaneous User object that's logging in
 typealias FIRuser = FirebaseAuth.User
+var AuthProcessFinished: Bool = false
 
 class LoginViewController: UIViewController {
     //Fixed width could be causing a future layout error with tagline label
@@ -44,7 +45,7 @@ class LoginViewController: UIViewController {
         let authViewController = authUI.authViewController()
 //        TEMPORARILY COMMENT OUT PRESENTING THE AUTHVIEWCONTROLLER
         present(authViewController, animated: true)
-        
+        print("Presented the Auth View controller")
         
     }
     
@@ -74,7 +75,7 @@ extension LoginViewController : FUIAuthDelegate {
         let userRef = Database.database().reference().child("users").child(user.uid)
         
         //read the data by handling the snapshot
-        userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in
+        userRef.observeSingleEvent(of: .value, with: { /*[unowned self]*/ (snapshot) in
             // 4 retrieve user data from snapshot
             
             //retrieve the data from the DataSnapshot using the value property, check if it's expected type (in this case, dictionary)
@@ -86,7 +87,7 @@ extension LoginViewController : FUIAuthDelegate {
             else {
                 print("New User!")
                 //if there is a new user, use the segue to present the CreateUsernameViewController
-//                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
+                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
             
         })
