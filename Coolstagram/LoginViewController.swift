@@ -87,6 +87,7 @@ extension LoginViewController : FUIAuthDelegate {
             else {
                 print("New User!")
                 //if there is a new user, use the segue to present the CreateUsernameViewController
+                //self.performSegue(withIdentifier: "toCreateUsername", sender: self)
                 self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
             

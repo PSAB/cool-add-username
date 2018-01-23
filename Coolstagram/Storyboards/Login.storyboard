@@ -59,7 +59,6 @@
                                 <state key="normal" title="Register or Log in"/>
                                 <connections>
                                     <action selector="loginButtonTapped:" destination="5HH-oS-EZl" eventType="touchUpInside" id="U3x-wN-6Ww"/>
-                                    <segue destination="YZB-ou-g03" kind="show" identifier="toCreateUsername" id="Gsi-DQ-27e"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -78,6 +77,7 @@
                     <navigationItem key="navigationItem" id="Dt8-EM-hb6"/>
                     <connections>
                         <outlet property="loginButton" destination="obf-ob-XEh" id="upV-ta-Icn"/>
+                        <segue destination="YZB-ou-g03" kind="show" identifier="toCreateUsername" id="t5H-WF-kKb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfr-Kb-Tae" userLabel="First Responder" sceneMemberID="firstResponder"/>
