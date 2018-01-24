@@ -46,6 +46,7 @@ class LoginViewController: UIViewController {
 //        TEMPORARILY COMMENT OUT PRESENTING THE AUTHVIEWCONTROLLER
         present(authViewController, animated: true)
         print("Presented the Auth View controller")
+        authViewController.dismiss(animated: true, completion: nil)
         
     }
     
@@ -88,6 +89,7 @@ extension LoginViewController : FUIAuthDelegate {
                 print("New User!")
                 //if there is a new user, use the segue to present the CreateUsernameViewController
                 //self.performSegue(withIdentifier: "toCreateUsername", sender: self)
+                //FUIAuth.defaultAuthUI()?.authViewController().dismiss(animated: true, completion: nil)
                 self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
             
